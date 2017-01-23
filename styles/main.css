@@ -28,3 +28,17 @@ p,h1,h2 {
 .column {
 	text-align: center!important;
 }
+
+div.ui.segment{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+div.ui.segment img{
+	flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+
